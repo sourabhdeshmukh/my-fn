@@ -41,7 +41,7 @@ def process_event(r, target_channel, webhook_url):
                 user_name = r["event"]["user"]
                 who = "<@{}>".format(user_name)
 
-                positive_emoticons = [":openfaas:", ":whale:", ":thumbsup:", ":wave:", ":sunglasses:", ":ok_hand:", ":chart_with_upwards_trend:", ":sunrise:", ":smiley:", ":smiley_cat:", ":parrot:", ":rocket:", ":100:", ":muscle:", ":signal_strength:", ":man-cartwheeling:"]
+                positive_emoticons = [":openfaas:", ":whale:", ":thumbsup:", ":wave:", ":sunglasses:", ":ok_hand:", ":chart_with_upwards_trend:", ":sunrise:", ":smiley:", ":smiley_cat:", ":parrot:", ":rocket:", ":100:", ":muscle:", ":signal_strength:", ":man-cartwheeling:", ":grinning:", ":blush:", ":wink:", ":open_mouth:", ":tada:", ":innocent:", ":confetti_ball:", ":clap:", ":balloon:", ":upside_down_face:"]
 
                 emoticons = build_emoticons(positive_emoticons)
 
